@@ -5,14 +5,14 @@
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
-        <Version>4.5.0</Version>
+        <Version>4.5.1</Version>
     </PropertyGroup>
     <ItemGroup>
-        <FrameworkReference Include="Microsoft.AspNetCore.App"/>
+        <FrameworkReference Include="Microsoft.AspNetCore.App" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Prometheus.Client" Version="4.5.3"/>
-        <PackageReference Include="Prometheus.Client.AspNetCore" Version="4.5.0"/>
+        <PackageReference Include="Prometheus.Client" Version="4.5.3" />
+        <PackageReference Include="Prometheus.Client.AspNetCore" Version="4.5.1" />
     </ItemGroup>
 </Project>
